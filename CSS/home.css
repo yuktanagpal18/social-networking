@@ -1,0 +1,381 @@
+/*====================	MAIN contentECTION ================*/
+
+/*parent of main*/
+.mainnotfixed
+{
+	float: left;
+	width: 570px;
+	/*height: 240px;*/
+}
+
+/*to post an content section*/
+.main
+{
+	/*width: 558px;*/
+	/*height: 220px;*/
+	background-color: #ede1ed;
+	border: 1px solid #f7eded;
+	/*position: fixed;*/
+	border-radius: 4px;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-shadow: 8px 8px 8px 4px #a593a1;
+}
+
+
+/*same class name of post and posted content*/
+.mainpost
+{
+
+	background-color: #ede1e1;
+	border: 0px;
+	/*position: fixed;*/
+	border-radius: 4px;
+	padding: 15px;
+	box-shadow: 5px 2px 6px 1px #a593a1;	
+	margin-bottom: 5px;
+}
+
+/*user image size of the post and posted content*/
+.mainpost .userimg img
+{
+	width: 45px;
+	height: 45px;
+	/*padding-bottom: 30px;*/ 
+	float: left;
+}
+
+/*user name design of post and posted content*/
+.mainpost .name
+{
+	display: inline;
+	padding-left: 8px;
+	font-size: 16px;
+	position: relative;
+	top: 4px;
+	font-weight: bold;
+	/*float: left;*/
+}
+
+/*time of post of design for post and posted content*/
+.mainpost .time
+{
+	display: inline;
+	padding-left: 8px;
+	font-size: 12px;
+	color: #574753;
+	/*float: left;*/
+}
+
+/*parent of content image of the post and posted content*/
+.mainpost .post
+{
+	/*padding: 30px;*/
+	/*margin-top: 10px;*/
+	max-height: 250px;
+}
+
+
+/*content image of the post and posted content*/
+.mainpost .postimg
+{
+	max-width: 100%;
+	max-height: 250px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*paragraph of the posted content*/
+.mainpost .quotes
+{
+	margin: 12px 4px 8px 4px;
+	font-size: 14px;
+	/*letter-spacing: 0.5px;*/
+	font-family: sans-serif;
+	text-align: justify;
+	padding: 5px;
+}
+
+/*post article of the input area*/
+.main .quotes textarea
+{
+	margin-top: 8px;
+	width: 100%;
+	height: 70px;
+	outline: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #ede1e1;
+	box-shadow: 1px 8px 7px 0.01px #a593a1;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: justify;
+	resize: none;
+	box-sizing: border-box;
+}
+
+/*post bar where post and image button available*/
+.main .postbar
+{
+
+	padding: 10px 10px 1px 10px;
+}
+
+/*design button of post in postbar*/
+.main .postbar .imgbttn
+{	
+	display: inline;
+	font-size: 15px;
+	background-color: #ede1e1;
+	border: 0px;
+	box-shadow: 1px 8px 7px 0.01px #a593a1;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px #999999;
+}
+
+/*design button of post in postbar*/
+.main .postbar .postmypost
+{
+	color: #ede1e1;
+	display: inline;
+	float: right;
+	font-size: 16px;
+	padding: 6px 9px 4px 9px;
+	background-color: #574753;
+	outline: 0px;
+	border: 0px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px #999999;
+}
+
+/*post button hover effect*/
+.main .postbar .postmypost:hover
+{
+	background-color: #856d7f;
+}
+
+/*post button when click effect*/
+.main .postbar .postmypost:active
+{
+  background-color: #574753;
+  box-shadow: 0 5px 4px #666;
+  transform: translateY(5px);
+}
+
+/*choose image which overwritten by imgbttn*/
+.main .postbar #chooseimg
+{
+	width: 90px;
+	height: 28px;
+	font-size: 12px;
+	position:absolute;
+	opacity: 0;
+}
+
+.main .postimg
+{
+	max-height: 150px;
+}
+
+/*like count in posted content*/
+.likedislike .like
+{
+	font-size: 11px;
+	font-family: Verdana;
+	color: #999;
+}
+
+/*like dislike button section in posted section*/
+.likedisbttn
+{
+	color: #927a8c;
+	margin: 0px;
+	border: 0px;
+	padding: 5px;
+}
+
+/*common class for like and dislike button*/
+.likedisbttn .fa
+{
+	/*color: #009688;*/
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+/*like button of posted content*/
+.likedisbttn .fa-thumbs-up
+{
+	margin-left: 8px;
+}
+
+/*dislike button of posted content*/
+.likedisbttn .fa-thumbs-down
+{
+	margin-left: 13px;
+}
+
+/*mouse over effect in like and dislike button*/
+.likedisbttn .fa:hover
+{
+	color: #574753;
+	/*color: red;*/
+}
+
+/*mouse click effect in like and dislike button*/
+.likedisbttn .fa:active
+{
+  	transform: translateY(2px);
+}
+
+/*view more button in main content*/
+.viewmore
+{
+	display: block;
+	margin: 35px auto;
+	padding: 1px;
+	border: 2px solid #B7B7B7;
+	outline: 0px;
+	color: black;
+	background-color: #ede1e1;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #999999;
+	font-size: 16px;
+}
+
+/*view more button when click change class name to loader*/
+
+.loader {
+	background-color: #f7eded;
+	display: block;
+	margin: 35px auto;
+	padding: 1px;
+	outline: 0px;
+	border: 8px solid #e9e5e5;
+	border-radius: 50%;
+	border-top: 8px solid #574753;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.viewmore:hover
+{
+	border: 0px;
+	background-color: #574753;
+	color: white;
+}
+
+.viewmore:active
+{
+  background-color: #574753;
+  box-shadow: 0 5px 4px #666;
+  transform: translateY(5px);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	.wrapper{
+		width: auto;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	#search{
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper{
+		width: auto;
+	}
+
+	#search{
+		display: none;
+	}
+	
+	.leftfixed, .rightfixed{
+		display: none;
+	}
+    .mainnotfixed {
+		width: 100%; /* Full width on smaller screens */
+    }
+	
+    .main, .mainpost {
+		width: 100%; /* Full width on smaller screens */
+        margin: 10px auto; /* Add some margin to space elements */
+		box-sizing: border-box;
+    }
+
+    .mainpost .userimg img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .mainpost .name {
+        font-size: 14px;
+    }
+
+    .mainpost .time {
+        font-size: 10px;
+    }
+
+    .mainpost .post {
+        max-height: 200px;
+    }
+
+    .mainpost .postimg {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .mainpost .quotes {
+        font-size: 12px;
+		
+    }
+
+    .main .quotes textarea {
+        height: 50px;
+        font-size: 12px;
+    }
+    
+    .main .postbar {
+        padding: 5px;
+    }
+
+    .main .postbar .imgbttn {
+        font-size: 12px;
+    }
+
+    .main .postbar .postmypost {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .main .postimg {
+        max-height: 150px;
+    }
+
+    .likedislike .like {
+        font-size: 10px;
+    }
+
+    .likedisbttn .fa {
+        font-size: 14px;
+    }
+
+    .viewmore {
+        font-size: 14px;
+    }
+
+    .loader {
+        width: 30px;
+        height: 30px;
+    }
+}
