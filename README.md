@@ -5,7 +5,7 @@ Homaj is not just another social networking platform. It's a prototype that envi
 
 Features:
 
-#💬 Seamless Messaging:
+💬 Seamless Messaging: <br>
 Our chat section makes communication smooth and natural.
 
 #📷 Stunning Media:
