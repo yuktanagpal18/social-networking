@@ -5,28 +5,28 @@ Homaj is not just another social networking platform. It's a prototype that envi
 
 Features:
 
-💬 Seamless Messaging
+💬 Seamless Messaging:
 Our chat section makes communication smooth and natural.
 
-📷 Stunning Media
+📷 Stunning Media:
 Share images, videos, and more with a stunning and intuitive media sharing experience.
 
-🌐 Explore Interests
+🌐 Explore Interests:
 Discover new interests and groups. From hobbies to causes, you can find like-minded individuals to connect with.
 
-🚀 Engaging Posts
+🚀 Engaging Posts:
 Share your thoughts, experiences, and moments with captivating posts. Get ready for a new level of engagement!
 
-🌟 Notifications
+🌟 Notifications:
 Stay updated with the notifications for likes, comments, and messages. Never miss a beat.
 
-👩‍💻Profile Customization
+👩‍💻Profile Customization:
 Users have the freedom to personalize their profiles with profile pictures, cover photos, and a bio.
 
-📄Personal Information
+📄Personal Information:
 Share personal details, such as location, workplace, education, and more.
 
 Technologies Used:
-HTML: The backbone of our content structure.
-CSS: For styling and enhancing the user interface.
-JavaScript: Powers interactive features and dynamic content.
+HTML- The backbone of our content structure.
+CSS- For styling and enhancing the user interface.
+JavaScript- Powers interactive features and dynamic content.
